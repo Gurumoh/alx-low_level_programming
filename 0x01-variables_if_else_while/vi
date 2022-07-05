@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+/**
+ * main - Prints the alphabet in lowercase, except for q and e.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
+
+	putchar('\n');
+
+	return (0);
+}
+Esc
+:wq
+git add .
+git commit -m '4-print_alphabt.c'
+git push
+
+
+
+TASK 5
+vi 5-print_numbers.c
+i
+#include <stdio.h>
+
+/**
+ * main - Prints all single digit numbers of base 10 starting from 0.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	int num;
+
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
+
+	return (0);
+}
