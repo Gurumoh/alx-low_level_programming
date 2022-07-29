@@ -12,9 +12,9 @@ int main(void)
 {
 int *i;
 
-i = malloc_checked(sizeof(int) * 2);
-
-malloc_checked(5);
+i = malloc_checked(b);
+if (i==NULL)
+exit(98);
 
 free(i);
 }
