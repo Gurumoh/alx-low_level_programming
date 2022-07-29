@@ -10,11 +10,11 @@
  */
 int main(void)
 {
-int* i;
+int *i;
 
- i = malloc(sizeof(int) * 2);
+i = malloc_checked(sizeof(int) * 2);
 
-malloc_checked(5)
+malloc_checked(5);
 
-free(i)
+free(i);
 }
