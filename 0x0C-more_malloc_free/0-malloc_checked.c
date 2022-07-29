@@ -15,5 +15,5 @@ i = malloc_checked(b);
 if (i == NULL)
 exit(98);
 
-free(i);
+return (i);
 }
