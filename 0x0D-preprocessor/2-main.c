@@ -3,10 +3,17 @@
 #include "2-main.c"
 #include __FILE__
 #include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - where declare function is been called
+ *
+ * Return: nothing
+ */
 
 int main(void)
 {
-	printf("%s", __FILE__);
+	printf("%s\n", __FILE__);
 }
 
 #endif
