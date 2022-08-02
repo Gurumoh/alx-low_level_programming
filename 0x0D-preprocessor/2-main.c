@@ -1,3 +1,5 @@
+#ifndef _2_MAIN_C
+#define _2_MAIN_C
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,5 +12,7 @@
 int main(void)
 {
 	printf("%s\n", __FILE__);
-	return(0);
+	return (0);
 }
+
+#endif
